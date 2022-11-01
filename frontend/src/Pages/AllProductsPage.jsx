@@ -21,7 +21,7 @@ const AllProductsPage = (props) => {
     }, [])
 
     return ( 
-        <DefaultPage title="Shop">
+        <DefaultPage title="BratheringShop">
             <div className="product-grid-view">
                 {allProducts.map(product => <ProductView key={product._id} product={product} />)}
             </div>

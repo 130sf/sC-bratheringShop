@@ -36,7 +36,7 @@ const ProductDetailPage = () => {
             </div>}
 
             <div>{error}</div>
-            <Link to="/">Go Back To Shop</Link>
+            <Link to="/">..back to Shop</Link>
         </DefaultPage>
     );
 }

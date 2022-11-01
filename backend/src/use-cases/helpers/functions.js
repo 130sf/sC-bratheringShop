@@ -5,7 +5,7 @@ function productToProductView(product) {
         price: product.price,
         imageLink: product.imageLink,
         isAvailible: product.stockCount > 0,
-        isLimited: product.stockCount < 10,
+        isLimited: product.stockCount < 9,
     }
 }
 
