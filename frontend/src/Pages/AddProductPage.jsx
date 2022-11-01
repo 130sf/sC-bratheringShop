@@ -24,8 +24,8 @@ const AddProductPage = (props) => {
         // Update the formData object 
         formData.append("title", title); 
         formData.append("description", description);
-        formData.append("price", description);
-        formData.append("stockCount", description);
+        formData.append("price", price);
+        formData.append("stockCount", stockCount);
         formData.append("variations", JSON.stringify(variations));
         formData.append("productImage", productImage, productImage.name);  // Blob = Binary Large Object
 
@@ -64,7 +64,7 @@ const AddProductPage = (props) => {
                 <label htmlFor="description-input">
                     Description:
                 </label><br/>
-                <textarea id="description-input" type="text" vlaue={description} onChange={(e) => setDescription(e.target.value)} />
+                <textarea id="description-input" type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
                 <br/>
 
                 <label htmlFor="price-input">
