@@ -36,16 +36,3 @@ function App() {
 }
 
 export default App;
-
-
-// Todo:
-    
-//     * E-Mail Verification    
-//     * Refresh Token!!
-
-//     * Add To Wishlist Feature...
-//     * exisitierende Product Variations als Vorschlag beim form
-
-// New Features:
-//     * Edit Product
-//     * Forgot Password / Password Reset
